@@ -1,3 +1,3 @@
 #!/bin/bash
 # dune clean
-dune build main.exe && dune exec ./main.exe
+dune build src/main.exe && dune exec src/main.exe
